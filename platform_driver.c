@@ -1,3 +1,9 @@
+/* device tree
+  test_gpio {
+    compatible = "test,control-gpio";
+    test,reset-gpio = <>;
+  }
+*/
 
 #include <linux/module.h>
 #include <linux/uaccess.h>
