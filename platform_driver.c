@@ -58,7 +58,7 @@ static struct miscdevice test_miscdev = {  
   .mode  = 0666,
 };
 
-static int mobis_control_probe(struct platform_device *pdev) { 
+static int test_probe(struct platform_device *pdev) { 
   struct device_node *node = pdev->dev.of_node;
   struct device *dev = &pdev->dev;
   int ret=0;
